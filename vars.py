@@ -1,4 +1,5 @@
 import os
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 # ---- Environment Variables ----
 API_ID = int(os.getenv("API_ID", 34422904))
@@ -23,5 +24,7 @@ photozip = os.getenv("PHOTOZIP", "https://envs.sh/fH.jpg/IMG20250803719.jpg")
 # ---- Cookies ----
 cookies_file_path = os.getenv("cookies_file_path", "youtube_cookies.txt")
 
-# ---- Other ----
-KEYBOARD = InlineKeyboardMarkup([[InlineKeyboardButton("📞 Contact", url="https://t.me/MrFrontMa1")]])
+# ---- Keyboard ----
+KEYBOARD = InlineKeyboardMarkup([
+    [InlineKeyboardButton("📞 Contact", url="https://t.me/MrFrontMa1")]
+])
