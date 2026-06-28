@@ -23,7 +23,7 @@ from pyrogram.errors import FloodWait, BadRequest, Unauthorized, SessionExpired,
 
 # 🧠 Bot Modules
 import auth
-import thanos as helper
+from thanos import *
 from html_handler import html_handler
 from thanos import *
 from clean import register_clean_handler
