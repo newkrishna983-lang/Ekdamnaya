@@ -1,0 +1,15 @@
+aiohttp>=3.9.0
+aiofiles>=23.2.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+pyrogram==2.0.106
+pyromod==1.0.0
+tgcrypto>=1.2.0
+yt-dlp>=2023.12.30
+cloudscraper>=1.2.71
+beautifulsoup4>=4.12.0
+pytube>=15.0.0
+pycryptodome>=3.19.0
+m3u8>=3.6.0
+pytz>=2023.3
+ffmpeg-python>=0.2.0
